@@ -1,0 +1,25 @@
+[package]
+name = "axum-turnstile"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Cloudflare Turnstile verification middleware for Axum"
+repository = "https://github.com/rustunit/axum-turnstile"
+keywords = ["axum", "turnstile", "cloudflare", "middleware", "captcha"]
+categories = ["web-programming", "authentication"]
+
+[dependencies]
+axum = "0.8"
+tower = "0.5"
+tower-layer = "0.3"
+tower-service = "0.3"
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+
+[dev-dependencies]
+axum = { version = "0.8", features = ["macros"] }
+tokio = { version = "1", features = ["full", "test-util"] }
+tower = { version = "0.5", features = ["util"] }
