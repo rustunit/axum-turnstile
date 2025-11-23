@@ -2,7 +2,6 @@
 
 [![Crates.io](https://img.shields.io/crates/v/axum-turnstile.svg)](https://crates.io/crates/axum-turnstile)
 [![Documentation](https://docs.rs/axum-turnstile/badge.svg)](https://docs.rs/axum-turnstile)
-[![License](https://img.shields.io/crates/l/axum-turnstile.svg)](https://github.com/rustunit/axum-turnstile#license)
 
 **Cloudflare Turnstile verification middleware for Axum**
 
